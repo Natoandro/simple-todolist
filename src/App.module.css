@@ -1,0 +1,39 @@
+.App {
+  flex: 0 1 480px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  --max-width: 480px;
+}
+
+.AppHeader {
+  background: linear-gradient(to bottom right, #5ae4, #5ae2 20%,#5ae8);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.HeaderContainer {
+  flex: 1 1 100%;
+  max-width: var(--max-width)
+}
+
+.AppHeader h1 {
+  color: white;
+  margin: 16px 0 8px;
+}
+
+.TodoList {
+  list-style-type: none;
+  padding: 0;
+  margin: 6px 0;
+}
+
+.App > main {
+  width: 100%;
+  max-width: var(--max-width);
+  align-self: center;
+}
+

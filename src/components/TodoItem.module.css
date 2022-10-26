@@ -1,0 +1,14 @@
+.TodoItem {
+  margin: 0;
+  border-bottom: 2px solid #eee;
+  padding: 8px 12px;
+}
+
+.Done label {
+  color: #aaa;
+  /* font- */
+}
+
+.CheckBox {
+  margin-right: 12px;
+}

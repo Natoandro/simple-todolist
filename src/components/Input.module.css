@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  padding: 16px 0 0;
+  flex-direction: column;
+}
+
+.input {
+  flex: 1 1 auto;
+  padding: 4px 8px;
+  outline: none;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 6px 16px;
+}
+
+.input:hover {
+  border-color: #5aea;
+}
+
+.input:focus {
+  border-color: #5ae;
+}
+
+.helperText {
+  color: #888;
+  font-size: 0.8rem;
+  margin: 4px 0;
+  padding: 0 16px;
+}
+
+.helperText.hidden {
+  visibility: hidden;
+}
+
+.button {
+  display: none;
+}
